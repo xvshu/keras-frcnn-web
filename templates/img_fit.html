@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可乐识别</title>
+    <link rel="stylesheet" href="/static/css/user_form.css">
+</head>
+<body>
+<header>
+    <div class="header-line"></div>
+</header>
+<div class="content">
+    <img class="content-logo" src="/static/img/logo.png" alt="logo">
+    <h1 class="content-title">图片识别</h1>
+    <div class="content-form">
+        <form method="post"  action="/img/fit" enctype="multipart/form-data" >
+            <div id="change_margin_1">
+                图片： <input class="user" type="file" name="imagefile" style="width:160px;" />
+            </div>
+            <p id="remind_2"></p>
+            <div id="change_margin_3">
+                <input class="content-form-signup" type="submit" value="鉴定">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
