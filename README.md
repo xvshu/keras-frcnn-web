@@ -3,7 +3,7 @@
 利用keras建立 faster rcnn网络，训练完成后，将检测api释放为rest接口，方便后端调用
 
 # linux 环境搭建
-(''')
+```Bash
   1. wget  https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
   2. tar Jxvf  Python-3.5.2.tar.xz
   3. cd Python-3.5.2
@@ -18,7 +18,7 @@
   12. pip3.5 install  flask_httpauth
   13. pip3.5 install  werkzeug
   14.pip install opencv-python
-(''')
+```
 
 # 数据集格式
 
