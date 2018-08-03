@@ -3,20 +3,22 @@
 利用keras建立 faster rcnn网络，训练完成后，将检测api释放为rest接口，方便后端调用
 
 # linux 环境搭建
-  >1. wget  https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
-  >2. tar Jxvf  Python-3.5.2.tar.xz
-  >3. cd Python-3.5.2
-  >4. ./configure --prefix=/usr/local/python3
-  >5. make && make install  # 成功提示：Ignoring ensurepip failure: pip 7.1.2 requires SSL/TLS
-  >6. ln -s /usr/local/python3/bin/pip3.5 /usr/local/bin/pip3.5
-  >7. ln -s /usr/local/python3/bin/python3.5 /usr/local/bin/python3
-  >8. pip3.5 install --upgrade pip
-  >9. pip3.5 install keras
-  >10. pip3.5 install  tensorflow
-  >11. pip3.5 install flask
-  >12. pip3.5 install  flask_httpauth
-  >13. pip3.5 install  werkzeug
-  >14.pip install opencv-python
+(''')
+  1. wget  https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
+  2. tar Jxvf  Python-3.5.2.tar.xz
+  3. cd Python-3.5.2
+  4. ./configure --prefix=/usr/local/python3
+  5. make && make install  # 成功提示：Ignoring ensurepip failure: pip 7.1.2 requires SSL/TLS
+  6. ln -s /usr/local/python3/bin/pip3.5 /usr/local/bin/pip3.5
+  7. ln -s /usr/local/python3/bin/python3.5 /usr/local/bin/python3
+  8. pip3.5 install --upgrade pip
+  9. pip3.5 install keras
+  10. pip3.5 install  tensorflow
+  11. pip3.5 install flask
+  12. pip3.5 install  flask_httpauth
+  13. pip3.5 install  werkzeug
+  14.pip install opencv-python
+(''')
 
 # 数据集格式
 
